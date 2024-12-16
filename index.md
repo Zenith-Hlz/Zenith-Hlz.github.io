@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://Zenith-Hlz.github.io/houlinzhi.jpg" class="floatpic">
+<img src="https://houlinzhi.com/images/avatar.jpg" class="floatpic">
 
 My name is **Linzhi Hou (侯林之)**.<br>
 

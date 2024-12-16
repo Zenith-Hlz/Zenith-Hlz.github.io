@@ -24,6 +24,10 @@ title: Hobbies
 
   **If you are interested in playing Valorant with me, feel free to add me on Valorant: Zenith#50447.**
 
+  <br>
+
+  ![Valorant](https://houlinzhi.com/images/valorant.png)
+
 ---
 
 ## Honor of Kings
@@ -38,6 +42,10 @@ title: Hobbies
 
   I have been playing Honor of Kings since 2016. I have reached the master rank in the game but now I have been paying less time on it. I still play the game occasionally with my friends and try to keep up with the latest updates and meta changes.
 
+  <br>
+
+  ![Honor of Kings](https://houlinzhi.com/images/honorofkings.jpg)
+
 ---
 
 ## Soul Knight
@@ -51,3 +59,7 @@ title: Hobbies
   <br>
 
   I have been playing Soul Knight since 2018. I have reached the highest level in the game and have unlocked most the characters and weapons. I still play the game occasionally to relax and have fun. I enjoy playing the game with my friends and trying out different characters and weapons.
+
+  <br>
+
+  ![Soul Knight](https://houlinzhi.com/images/soulknight.jpg)
