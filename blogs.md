@@ -4,13 +4,9 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-# Chinese Blogs 中文博客
-
----
-
 ## 2025
 
-- [博客正在建设中](https://houlinzhi.com/files/404)
+- [博客正在建设中](https://houlinzhi.com/file/404)
 
 ---
 
