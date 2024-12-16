@@ -10,7 +10,7 @@ title: Blogs
 
 ### 2025
 
-- [博客正在建设中](https://zenith-hlz.github.io/files/404.md)
+- [博客正在建设中](https://zenith-hlz.github.io/files/404)
 
 ---
 
