@@ -1,6 +1,6 @@
 title: Linzhi Hou
-tagline: Here is personal website of Linzhi Hou. Powered by Jekyll, based on the Minimal Mistakes theme.
-description: I am an Enthusiastic Computer Science and Technology student at THU. Passionate about coding, AI, and open-source projects.
+# tagline: Here is personal website of Linzhi Hou. Powered by Jekyll, based on the Minimal Mistakes theme.
+# description: I am an Enthusiastic Computer Science and Technology student at THU. Passionate about coding, AI, and open-source projects.
 # Comment out url when working locally to resolve base urls correctly
 url: https://Zenith-Hlz.github.io
 
@@ -30,14 +30,14 @@ owner:
 links:
   - title: About Me
     url: /
-  - title: Publications
-    url: /publications/
   - title: Awards
     url: /awards/
+  - title: Schoolwork
+    url: /schoolwork/
+  - title: Publications
+    url: /publications/
   - title: Hobbies
     url: /hobbies/
-  - title: Startups
-    url: /startups/
   - title: Blogs
     url: /blogs/
 
