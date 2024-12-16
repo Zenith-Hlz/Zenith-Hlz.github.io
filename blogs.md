@@ -6,7 +6,8 @@ title: Blogs
 
 ## 2025
 
-- [博客正在建设中](https://houlinzhi.com/file/404)
+- [博客正在建设中](https://houlinzhi.com/files/404)
+- [个人网站搭建指南](https://houlinzhi.com/blogs/personal_website_guide)
 
 ---
 
