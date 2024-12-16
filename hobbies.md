@@ -6,6 +6,8 @@ title: Hobbies
 
 # Hobbies
 
+---
+
 ## Valorant
 
 - [Valorant](https://playvalorant.com/)

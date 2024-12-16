@@ -4,11 +4,11 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-## Chinese Blogs 中文博客
+# Chinese Blogs 中文博客
 
 ---
 
-### 2025
+## 2025
 
 - [博客正在建设中](https://zenith-hlz.github.io/files/404)
 
