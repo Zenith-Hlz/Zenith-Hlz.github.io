@@ -32,7 +32,7 @@ title: Schoolwork
   
   <br>
 
-  课程共计三次实验，相关代码托管到 `GitHub` 上，目前（2024/12/16）第三次实验 （`malloclab`）尚未完成。
+  课程基于 CMU 的 [CSAPP](https://houlinzhi.com/files\CSAPP.pdf)。作业共计三次实验，相关代码托管到 `GitHub` 上，目前（2024/12/16）第三次实验 （`malloclab`）尚未完成。
 
 ## 2024 Summer Semester
 

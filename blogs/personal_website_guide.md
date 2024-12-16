@@ -152,9 +152,9 @@ links:
 
 ### (5) 文件链接配置
 
-现在，聪明的你可能又发现了，在笔者的站点中，点击[This is my reference book](https://houlinzhi.com/files\Computer_Systems_A_Programmers_Perspective(3rd).pdf)，就可以跳转到CSAPP。
+现在，聪明的你可能又发现了，在笔者的站点中，点击[This is my reference book](https://houlinzhi.com/files\CSAPP.pdf)，就可以跳转到CSAPP。
 
-<br>于是，笔者要引入Jekyll静态站点的第二条哲学了：**二次元站点世界，是由链接构成的**。
+<br>于是，笔者要引入Jekyll静态站点的第二条哲学了：**站点世界，是由链接构成的**。
 
 <br>这也是Jekyll得到轻量化的原因——**不需要后期调用，只关注前期配置**。因此，每一个页面中的文字、图片、链接，都需要提前配置完成，方便后期显示。
 
@@ -163,7 +163,7 @@ links:
 <br>比如，在笔者站点中的`schoolwork.md`等页面中，都有超链接地址，可以直接访问`files`文件夹下的文件，这就是通过绝对地址实现的，下面是配置方法：
 
 ```markdown
-[This is my file](https://houlinzhi.com/files\Computer_Systems_A_Programmers_Perspective(3rd).pdf)
+[This is my file](https://houlinzhi.com/files\CSAPP.pdf)
 
 [] 里面放置你想显示的内容文本
 () 紧跟着，放置文件的绝对地址
