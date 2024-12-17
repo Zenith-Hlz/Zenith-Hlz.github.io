@@ -6,84 +6,84 @@ title: Schoolwork
 
 ## 2024 Fall Semester
 
-- [数据结构](https://github.com/Zenith-Hlz/2024-fall-dsa)
+- [Data Structure and Algorithms](https://github.com/Zenith-Hlz/2024-fall-dsa)
 
   <br>
 
-  数据结构是计算机科学的关键内容，也是构建高效算法的必要基础。其覆盖的知识，在相关专业的课程体系中始终处于核心位置。本课程旨在围绕各类数据结构的设计与实现，揭示其中的规律原理与方法技巧；同时针对算法设计及其性能分析，使学生了解并掌握主要的套路与手法。讲授的主题从基础的数据结构，一直延伸至新近的研究成果。
+  Data structure is a key component in computer science and is essential for building efficient algorithms. It is always at the core of the curriculum in related majors. This course aims to reveal the principles and methods of various data structures, as well as the main techniques for algorithm design and performance analysis. The topics covered range from basic data structures to recent research results.
 
   <br>
 
-  课程相关材料可参考清华大学DSA官方网站 ([DSACPP](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/)) 。
+  The course materials can be found on the [official website of Tsinghua University DSA](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/).
 
   <br>
 
-  课程的 4 次 PA 和前 3 次 LAB 均托管在 `GitHub` ，由于15次编程作业评分时忽略分数最低的一次，因此我没有完成第四次 LAB 。
+  The 4 PA and the first 3 LABs are hosted on `GitHub`. Due to the scoring policy of the course, the lowest score of the 15 programming assignments is ignored. Therefore, I did not complete the fourth LAB.
 
   <br>
 
-  **当前 DSA 课程并没有结束，为防止代码被抄袭，`GitHub` 仓库为私人模式，将会在最后一次 LAB 截止后公开。**
+  **The DSA course has not ended yet, and the `GitHub` repository is private to prevent code from being plagiarized. It will be made public after the last LAB is due.**
 
-- [计算机系统概论](https://github.com/Zenith-Hlz/2024-fall-ics)
+- [Introduction to Computer Systems](https://github.com/Zenith-Hlz/2024-fall-ics)
 
   <br>
 
-  这门课是将计算机软件工作过程和硬件运行原理结合讲述的教程，覆盖计算机基本运 行原理、指令集、虚存与异常处理、系统编程、并行编程（概念）、编程优化等多方面内 容，从程序员以及软件运行、优化的角度去看待计算机系统，讲解其基本组成及其工作原理，分析计算机组成对系统性能的影响。 对于理解计算机内部结构，更好的掌握程序编写、优化技能，领会全面的计算机基础 知识以及软硬件各部分的相互作用，帮助学生建立计算机整机系统的完整概念很有裨益， 为进一步学习计算机体系结构、操作系统、编译器和网络互联打下基础。
+  This course is a tutorial that combines the software working process and hardware operation principles. It covers various aspects such as the basic operation principles of computers, instruction sets, virtual memory and exception handling, system programming, parallel programming (concepts), programming optimization, etc. It provides a comprehensive understanding of the internal structure of computers, enhances programming skills, and helps students establish a complete concept of the computer system. It is beneficial for further learning in computer architecture, operating systems, compilers, and network interconnection.
   
   <br>
 
-  课程基于 CMU 的 [CSAPP](https://houlinzhi.com/files\CSAPP.pdf)。作业共计三次实验，相关代码托管到 `GitHub` 上，目前（2024/12/16）第三次实验 （`malloclab`）尚未完成。
+  The course is based on CMU's [CSAPP](https://houlinzhi.com/files\CSAPP.pdf). There are three experiments, and the related code is hosted on `GitHub`. The third experiment (`malloclab`) has not been completed yet (2024/12/16).
 
 ## 2024 Summer Semester
 
-- **程序设计训练（Rust）**
+- **Programming Training (Rust)**
 
   <br>
 
-  本课程的定位是：通过大量的编程实践，使学生更加深刻的理解并巩固面向对象程序设计的基本原理和方法，熟练掌握程序设计环境及其应用，培养学生程序设计过程中的分析、设计、编码、调试和优化等基本方法和能力。在此基础上，提高学生解决实际问题的模块化思想和适应新的编程语言的能力，养成良好的编程风格及编程习惯。
+  The course aims to deepen students' understanding of object-oriented programming, enhance their programming skills, and cultivate their ability to analyze, design, code, debug, and optimize programs. It also aims to improve students' modular thinking and adaptability to new programming languages, as well as cultivate good programming styles and habits.
 
   <br>
 
-  Rust 课堂 4 周的教学全部围绕 Rust 语言展开，目标是使学生了解和掌握 Rust 语言的基本概念和设计理念，通过与 C++ 语言的对比感受编程语言的进化，为操作系统等后续课程打下基础。教学内容包括： 1. Rust入门与常见编程概念 2. 所有权 3. 结构体、枚举与模式匹配 4. 标准库 5. 包和项目管理 6. 并发与网络编程 7. 泛型、特性与生命周期 8. 函数式编程
+  The 4-week Rust course focuses entirely on the Rust programming language, aiming to help students understand and master the basic concepts and design principles of Rust. Through comparison with C++, students can experience the evolution of programming languages and build a foundation for subsequent courses like operating systems. The course content includes: 1. Rust basics and common programming concepts 2. Ownership 3. Structs, enums and pattern matching 4. Standard library 5. Package and project management 6. Concurrent and network programming 7. Generics, traits and lifetimes 8. Functional programming
 
-  - [Wordle 大作业](https://github.com/Zenith-Hlz/wordle-rust)
-  - [OJ 大作业](https://github.com/Zenith-Hlz/oj-rust)
+  - [Wordle Homework](https://github.com/Zenith-Hlz/wordle-rust)
+  - [OJ Homework](https://github.com/Zenith-Hlz/oj-rust)
 
   <br>
 
-  课程的两次大作业分别是 Wordle 游戏的实现以及一个简易的 OJ 评测系统的实现，具体代码可参考 `GitHub` 。
+  The two big assignments are the implementation of the Wordle game and a simple OJ evaluation system, which can be found on `GitHub`.
 
 ## 2024 Spring Semester
 
-- [面向对象程序设计基础](https://github.com/Zenith-Hlz/2024-spring-oop)
+- [Introduction to Object-Oriented Programming](https://github.com/Zenith-Hlz/2024-spring-oop)
 
   <br>
 
-  面向对象已成为计算机领域的主流技术之一，课程以C++语言为基础，详细介绍用C++进行面向对象的程序设计的核心思想。C++语言设计成熟、理论体系完整，全面支持面向对象设计思想，应用十分广泛。以C++进行面向对象程序设计，可以保证程序的高度可复用性、可维护性，有利于团队协作，便于复杂系统的设计与实现。 本课程为程序设计基础课程的后续拓展课程，要求学生在已掌握的计算机语言程序设计的基础上，能进一步拓展到面向对象的C++编程。 通过本课程的学习，要求学生全面掌握用C++语言进行面向对象程序设计的基本概念和方法，建立面向对象的思维模式，并能训练地用C++实现这些思路。具体内容包括：C++面向对象的基本语法、面向对象的编程方法和思想，以及设计模式等内容。要求学生理解对象、继承、多态、模板等技术手段。通过完成规定的设计练习，加强和提高程序调试的水平和能力。通过完成大作业，掌握有一定规模的程序设计方法，培养团队协作的素质。
+  Object-oriented programming has become one of the mainstream technologies in the computer field. This course is based on C++ language, and it introduces the core ideas of object-oriented programming using C++. C++ is a mature language with a complete theoretical system, fully supporting object-oriented design ideas, and widely used. Using C++ for object-oriented programming ensures high reusability and maintainability of programs, facilitates team collaboration, and is conducive to the design and implementation of complex systems. This course is a follow-up course to the basic programming course, requiring students to further expand their programming skills to C++ object-oriented programming. Through this course, students are expected to fully understand the basic concepts and methods of object-oriented programming using C++, establish an object-oriented thinking mode, and be able to implement these ideas using C++. The specific content includes: basic syntax of C++ object-oriented programming, programming methods and ideas, design patterns, etc. Students are expected to understand the techniques of objects, inheritance, polymorphism, templates, etc. By completing the specified design exercises, they are expected to improve and enhance their programming debugging skills. By completing the big assignment, they are expected to master the methods of program design with a certain scale, cultivate the quality of teamwork.
 
   <br>
 
-  课程的 7 次 OJ 作业以及最终的项目阅读报告均托管在 `GitHub` 上。
+  The 7 OJ assignments and the final project reading report are hosted on `GitHub`.
 
-- [离散数学（2）](https://github.com/Zenith-Hlz/2024-spring-graph-theory)
-
-  <br>
-
-  本课程分两大部分，第一部分为图论，33学时，主要介绍图的基本定义、性质及代数表示，道路与回路的基本概念、基本原理、判定方法包括欧拉与哈密顿这两种典型的道路与回路以及相关的基本算法包括旅行商问题、最短路径、关键路径、中国邮路等；树的基本回路矩阵、割集矩阵、支撑树生成和计数等；最后介绍与图相关的四个典型应用与算法包括平面图、图的着色、图的匹配与网络流等。第二部分是代数结构，12学时，主要介绍群的基本知识，包括主要包括群的定义、基本性质、群的阶与元素的阶、循环群、群的同构、变换群和置换群、陪集、正规子群与商群和群的同态等基本概念。课程中还会介绍所学习的理论和算法在当前计算机领域中的应用，并通过教学，培养学生抽象思维、数学建模和严格的逻辑推理能力，为后续课程的学习及将来从事科学研究打下扎实的基础。
+- [Discrete Mathematics (2)](https://github.com/Zenith-Hlz/2024-spring-graph-theory)
 
   <br>
 
-  其中图论部分的 3 次编程作业的代码均托管在 `GitHub` 上。
+  This course is divided into two parts. The first part is graph theory, with 33 hours, mainly introducing basic definitions, properties, and algebraic representations of graphs, as well as the basic concepts, principles, and methods of determining paths and circuits, including Euler and Hamilton circuits, as well as related basic algorithms such as the traveling salesman problem, shortest path, critical path, and Chinese postman. The basic concepts of trees, including circuit matrices, cut set matrices, support tree generation and counting, and finally four typical applications and algorithms related to graphs, including planar graphs, graph coloring, graph matching, and network flow. The second part is algebraic structure, with 12 hours, mainly introducing basic knowledge of groups, including mainly group definitions, basic properties, group order and element order, cyclic groups, group isomorphism, transformation groups and permutation groups, cosets, normal subgroups and quotient groups, and group homomorphisms. The course will also introduce the applications of the theories and algorithms learned in the current computer field, and through teaching, it aims to cultivate students' abstract thinking, mathematical modeling, and rigorous logical reasoning abilities, laying a solid foundation for subsequent courses and future scientific research.
+
+  <br>
+
+  The 3 programming assignments in the graph theory part are hosted on `GitHub`.
 
 ## 2023 Fall Semester
 
-- [程序设计基础](https://github.com/Zenith-Hlz/2023-fall-fop)
+- [Programming Fundamentals](https://github.com/Zenith-Hlz/2023-fall-fop)
 
   <br>
 
-  《程序设计基础》是计算机系本科生进入大学接触到第一门专业课。该课程强调在解题的实践中，掌握程序设计的基本概念，基本思想和基本方法，运用好计算机这一智力工具，提高分析问题和解决问题的能力；要求学生强化动手实践，引导理性思维和理性实践，养成良好的编程习惯。本课程改革了作业评价和考试方法，设计开发了练习题网上提交与自动评测系统，期中和期末采用上机解题，自动评测，真正考核学生的实际编程能力。
+  "Programming Fundamentals" is the first professional course that computer science students enter university. This course emphasizes the practice of problem-solving, mastering the basic concepts, basic ideas, and basic methods of programming, using the computer as an intellectual tool to improve the ability to analyze and solve problems; it requires students to strengthen hands-on practice, guide rational thinking and rational practice, and cultivate good programming habits. This course has reformed the evaluation and examination methods of homework and exams, designed and developed an online submission and automatic assessment system for exercises, and adopted on-site problem-solving and automatic assessment for midterms and finals, truly testing students' actual programming skills.
 
   <br>
   
-  课程中的四次实验以及大作业的代码均托管在 `GitHub` 上。
+  The four experiments and the big assignment are hosted on `GitHub`.
 

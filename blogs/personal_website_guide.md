@@ -4,107 +4,107 @@ permalink: /blogs/personal_website_guide/index.html
 title: personal_website_guide
 ---
 
-## 个人网站搭建指南
+## Personal Website Setup Guide
 
-> Philosophy：极简、高效、免费
+> Philosophy: Minimalist, Efficient, Free
 
-<br>**如何搭建属于自己的轻量化网站？**
-
----
-
-### (0) 核心工具
-
-在开始之前，首先介绍一下本站所依赖的核心工具
-
-- [Jekyll](https://www.jekyll.com.cn/)：一个简单的静态网站生成器。Jekyll 允许你使用 Markdown 或 Liquid 模板语言来编写内容，并将其转换为静态 HTML 文件。它非常适合用于博客和文档网站，支持插件扩展功能，能够轻松集成各种功能。
-- [Minimal Mistakes](https://mademistakes.com/)：本站所采用的极简风主题。Minimal Mistakes 提供了丰富的布局和样式选项，支持响应式设计，能够在各种设备上良好显示。它还集成了许多 Jekyll 插件，简化了站点的配置和管理。
-- [Github Page](https://docs.github.com/zh/pages)：GitHub 所提供的一个网页寄存服务。通过 GitHub Pages，你可以免费托管静态网站，并且与 GitHub 仓库无缝集成，支持自动化部署和版本控制，非常适合个人博客和项目文档。
+<br>**How to build your own lightweight website?**
 
 ---
 
-### (1) 前期配置
+### (0) Core Tools
 
-接下来，我们先进行前期环境配置工作。万事开头难，读工科的同学都知道，往往配置代码编译环境是最繁琐的。一旦完成，后续的工作流将会非常顺滑，接下来请大家务必按照以下流程进行操作：
+Before we begin, let's introduce the core tools this site depends on:
 
-- 登录[GitHub](https://github.com)，创建一个新的仓库。将仓库命名为 `username.github.io` ，其中 `username` 替换为你的 GitHub 用户名。 例如，如果用户名为 `Zenith-Hlz`，则存储库名称应为 `Zenith-Hlz.github.io`。
-- 如果你觉得从零开始搭建仓库有点困难，可以直接fork笔者的[仓库](https://github.com/Zenith-Hlz/Zenith-Hlz.github.io)，然后根据自己的需求进行修改。具体操作如下：
-    - ~~首先，点击右上角的Star，支持笔者的工作~~ 🥰
-    - **关键步骤：** 点击右上角的`Fork`，进入 Fork 配置界面。
-    - 将 Repository name 配置为：`[你的用户名].github.io`
-    - **注意：** 确保用户名和仓库名称中的大小写完全一致！
-    - 勾选 Copy the `main` branch only（只需要复制项目主支即可）
-    - 最后，点击`Create fork`，完成代码仓库复制
+- [Jekyll](https://jekyllrb.com/): A simple static site generator. Jekyll allows you to write content using Markdown or Liquid templating language and converts it into static HTML files. It's perfect for blogs and documentation sites, supports plugin extensions, and can easily integrate various features.
+- [Minimal Mistakes](https://mademistakes.com/): The minimalist theme used by this site. Minimal Mistakes provides rich layout and style options, supports responsive design, and displays well on various devices. It also integrates many Jekyll plugins, simplifying site configuration and management.
+- [GitHub Pages](https://docs.github.com/en/pages): A web hosting service provided by GitHub. Through GitHub Pages, you can host static websites for free, with seamless integration with GitHub repositories, supporting automated deployment and version control - perfect for personal blogs and project documentation.
+
+---
+
+### (1) Initial Setup
+
+Next, let's proceed with the initial environment setup. As engineering students know, setting up the code compilation environment is often the most tedious part. Once completed, the subsequent workflow will be very smooth. Please follow these steps carefully:
+
+- Log in to [GitHub](https://github.com) and create a new repository. Name the repository `username.github.io`, where `username` is replaced with your GitHub username. For example, if your username is `Zenith-Hlz`, the repository name should be `Zenith-Hlz.github.io`.
+- If you find it difficult to build a repository from scratch, you can directly fork the author's [repository](https://github.com/Zenith-Hlz/Zenith-Hlz.github.io) and modify it according to your needs. Here are the specific steps:
+    - ~~First, click the Star button in the top right to support the author's work~~ 🥰
+    - **Key step:** Click `Fork` in the top right to enter the Fork configuration interface.
+    - Set the Repository name to: `[your username].github.io`
+    - **Note:** Make sure the capitalization in your username and repository name matches exactly!
+    - Check "Copy the `main` branch only" (you only need to copy the main project branch)
+    - Finally, click `Create fork` to complete the repository copying
 
 <br>![fork](personal_website_guide.assets/fork.png)
 
-<br>至此，恭喜你完成了整个配置流程的一半！如果在上述步骤中遇到了任何问题，记得善用 STFW (Search The Friendly Web) 的理念，多上网查阅相关资料并解决问题。
+<br>Congratulations, you've completed half of the entire configuration process! If you encounter any problems in the above steps, remember to make good use of the STFW (Search The Friendly Web) principle - search online for relevant information to solve problems.
 
 ---
 
-### (2) 文件解释
+### (2) File Explanation
 
-下面，我们开始针对仓库内容进行定制化的修改。首先需要向各位解释**仓库中各个文件和文件夹的作用：**
+Next, let's start customizing the repository content. First, let's explain **the purpose of each file and folder in the repository:**
 
-#### 根目录文件介绍
+#### Root Directory Files
 
 ```bash
-.根目录
-├── _config.yml  网站的核心配置文件，几乎所有的修改都从这里开始。
-├── *.md         Markdown 文件，构成了网站上的每个页面，例如首页、博客、关于页面等。
-├── CNAME        用于绑定自定义域名。如果你有自己的域名（如 houlinzhi.com），可以通过此文件替代默认的 .github.io 地址。
-├── LICENSE      代码仓库的协议文件。通常是 MIT 协议，表示该代码仓库可以被自由复制和修改。（可选配）
+.root directory
+├── _config.yml  Core configuration file for the website, almost all modifications start here.
+├── *.md         Markdown files that make up each page of the website, such as homepage, blog, about page, etc.
+├── CNAME        Used for binding custom domains. If you have your own domain (e.g., houlinzhi.com), you can use this file to replace the default .github.io address.
+├── LICENSE      Repository license file. Usually MIT license, indicating the code repository can be freely copied and modified. (Optional)
 ```
 
-- `_config.yml`：这是 Jekyll 静态站点的“大脑”，决定了网站的标题、主题、导航、作者信息等内容。稍后我们会专门讲解如何配置这个文件。
-- `*.md` 文件：根目录中的 Markdown 文件，比如 index.md 通常是首页内容的主体。通过 Markdown 的简洁语法，你可以轻松编写丰富的页面内容。
-- `CNAME` 文件：如果你有自己的域名，将其添加到此文件中即可完成域名绑定。否则，可以直接使用 GitHub 提供的 [username].github.io 地址。
-- `LICENSE` 文件：决定了代码的使用权限。选择合适的协议，不仅可以保护你的知识产权，还能为他人提供清晰的复用说明。
+- `_config.yml`: This is the "brain" of the Jekyll static site, determining the website's title, theme, navigation, author information, and other content. We'll explain how to configure this file in detail later.
+- `*.md` files: Markdown files in the root directory, such as index.md which is usually the main content of the homepage. Using Markdown's clean syntax, you can easily write rich page content.
+- `CNAME` file: If you have your own domain, adding it to this file will complete the domain binding. Otherwise, you can directly use the GitHub-provided [username].github.io address.
+- `LICENSE` file: Determines the usage rights of the code. Choosing an appropriate license not only protects your intellectual property but also provides clear reuse instructions for others.
 
-#### 仓库文件夹介绍
+#### Repository Folder Introduction
 
 ```bash
-.根目录
-├── _includes 构成本网站的html代码，不建议修改
-├── _layouts  构成本网站的html代码，不建议修改
-├── assets    美化本网站的css, less, js代码，不建议修改
-├── backup    用于备份文件，以便于后续修改时可以参考
-├── blogs     存放个人博客.md文件，以及对应的图片素材
-├── file      存放简历CV等个人文件，用于设置访问链接
-├── images    存放.jpg等媒体文件，用于设置访问链接
+.root directory
+├── _includes HTML code components of the website, not recommended to modify
+├── _layouts  HTML code layouts of the website, not recommended to modify
+├── assets    CSS, LESS, JS code for website styling, not recommended to modify
+├── backup    For backing up files for future reference when making modifications
+├── blogs     Stores personal blog .md files and corresponding image assets
+├── file      Stores personal files like CV/resume for setting access links
+├── images    Stores media files like .jpg for setting access links
 ```
 
-- **`_includes` 文件夹**：  
-  包含网站的可复用 HTML 代码片段，比如页头、页脚、导航栏等。默认的 Minimal Mistakes 主题已经设置得很完善，通常无需改动。  
-- **`_layouts` 文件夹**：  
-  定义不同类型页面的 HTML 布局，比如博客页面、首页或自定义页面的样式。修改这些文件需要一定的 HTML 知识，建议结合主题文档操作。  
-- **`assets` 文件夹**：  
-  这里存放的是 CSS、LESS 和 JavaScript 文件，用于美化和增强网站功能。如果你想修改网站的颜色、字体等外观样式，可以编辑这里的文件。  
-- **`backup` 文件夹**：  
-  这个文件夹用于备份你的配置或重要内容。任何大改动前，建议将旧版本文件放在这里，便于恢复原样。  
-- **`blogs` 文件夹**：  
-  个人博客的主战场！每篇文章对应一个 `.md` 文件，通过 Markdown 格式书写，方便快捷。你还可以将博客图片放在此处，便于管理。  
-- **`file` 文件夹**：  
-  用于存放简历、研究论文、项目文档等个人文件。通过绝对路径链接后，访客可以直接查看或下载这些内容。  
-- **`images` 文件夹**：  
-  用于存放网站需要的图片资源，例如插图、徽标等。在引用图片时，推荐使用相对路径链接，既方便又可靠。  
+- **`_includes` folder**:  
+  Contains reusable HTML code snippets for the website, such as headers, footers, navigation bars, etc. The default Minimal Mistakes theme is already well-configured, usually requiring no modifications.
+- **`_layouts` folder**:  
+  Defines HTML layouts for different types of pages, like blog pages, homepage, or custom pages. Modifying these files requires some HTML knowledge - refer to theme documentation when making changes.
+- **`assets` folder**:  
+  Contains CSS, LESS and JavaScript files used for styling and enhancing website functionality. Edit these files if you want to modify the website's appearance like colors, fonts, etc.
+- **`backup` folder**:  
+  Used for backing up your configurations and important content. Before making major changes, it's recommended to store old versions here for easy recovery.
+- **`blogs` folder**:  
+  The main battleground for personal blogs! Each article corresponds to a `.md` file written in Markdown format for convenience. You can also store blog images here for easy management.
+- **`file` folder**:  
+  Used to store personal files like resumes, research papers, project documentation etc. Visitors can directly view or download these through absolute path links.
+- **`images` folder**:  
+  Stores image resources needed for the website, such as illustrations and logos. When referencing images, using relative path links is recommended for reliability and convenience.
 
 ---
 
-通过以上介绍，我们已经了解了每个文件和文件夹的功能分工。这种清晰的组织结构是 Jekyll 的一大优点，让你即便是初学者，也可以快速上手。接下来，让我们着手对文件进行修改和定制化，打造属于你的独一无二的网站！
+With the above introduction, we now understand the functional roles of each file and folder. This clear organizational structure is a major advantage of Jekyll, allowing even beginners to quickly get started. Next, let's begin modifying and customizing the files to create your own unique website!
 
 ---
 
-### (3) 个性化修改
+### (3) Personalization
 
-理解了每个文件对应的功能之后，再进行个性化的修改，就变得容易许多了。大家可以注意到，其实当你fork完代码仓库，等待一段时间后，访问 `[你的用户名].github.io` 这个域名，此时网站已经可以运行了，只不过显示的还是笔者的网站内容。
+After understanding the function of each file, making personalizations becomes much easier. You may notice that after forking the repository and waiting for a while, visiting `[your-username].github.io` will show a working website - though it still displays the original author's content.
 
-<br>因此，接下来需要进行个性化的修改。需要注意的是，在这里笔者并不会教大家每个文件的具体配置，而是教你如何修改主要的文件，其他的则需要你自行按图索骥，举一反三。
+<br>Therefore, the next step is to make personalizations. Note that I won't teach you how to configure every file in detail, but rather show you how to modify the main files. For the rest, you'll need to explore and learn by analogy.
 
-<br>如果你没有属于自己的域名，可以直接使用`[你的用户名].github.io`这个域名，也是非常方便的。此时你就需要将代码中所有的 URL 改为你自己的`[你的用户名].github.io`，这样就可以实现网站的更新。如果你有自己的域名，我将在文章的后续部分介绍如何配置域名。
+<br>If you don't have your own domain name, you can directly use `[your-username].github.io` which is very convenient. In this case, you'll need to change all URLs in the code to your own `[your-username].github.io` to make the website updates work. If you have your own domain name, I'll explain how to configure it later in the article.
 
-<br>首先我们修改`index.md`文件，也就是网站的主界面，在文本编辑完成后，上传到你的`github仓库`，一切正常的话，1-2分钟过后，你的网站就会发生变化了。其他的文件也是如此，只需要修改`.md`文件，然后上传到`github仓库`，就可以实现网站的更新。
+<br>First, let's modify the `index.md` file, which is the main interface of the website. After editing the text and uploading it to your `GitHub repository`, if everything is normal, your website will change in 1-2 minutes. The same applies to other files - just modify the `.md` files and upload them to the `GitHub repository` to update the website.
 
-<br>接下来，介绍`_config.yml`文件的配置方法。`.yml`是Jekyll静态站点的核心文件，核心的部分如下，其他的内容展示都先不用修改。笔者在`.yml`文件中已经撰写了比较详细的注释，如果还是不太清楚的话，建议`STFW (Search The Friendly Web)`
+<br>Next, let's introduce how to configure the `_config.yml` file. `.yml` is the core file of the Jekyll static site, with the core parts shown below. Other display content doesn't need modification yet. I've written detailed comments in the `.yml` file, but if anything is still unclear, I recommend `STFW (Search The Friendly Web)`
 
 ```yaml
 title: Linzhi Hou
@@ -132,70 +132,70 @@ links:
     url: /blogs/
 ```
 
-<br>恭喜你已经学会了最关键的部分，完成了80%的工作，之后的内容编辑你应该可以举一反三，得心应手了。接下来，笔者还会针对一些重要的细节进行指导，这些细节都将在后续网站的运营过程中帮助你减少工作量，希望你可以认真看下去哦。
+<br>Congratulations! You've learned the most crucial part and completed 80% of the work. From here on, you should be able to apply these principles to other content edits with ease. Next, I'll guide you through some important details that will help reduce your workload during website maintenance. I hope you'll read through carefully.
 
 ---
 
-### (4) 图片链接配置
+### (4) Image Link Configuration
 
-读者朋友应该发现了，本文中出现的所有图片都放置在`./images/`文件夹下，接下来会讲解如何应用和规范图片格式，帮助你在后期减少运营工作量。
+You may have noticed that all images in this article are stored in the `./images/` folder. Let's discuss how to use and standardize image formats to help reduce your operational workload later.
 
-<br>到这里，笔者要引入Jekyll静态站点的第一条哲学了：**一切都是有备而来**。
+<br>At this point, I want to introduce the first philosophy of Jekyll static sites: **Everything is prepared in advance**.
 
-<br>这也是Jekyll得到轻量化的原因——**不需要后期调用，只关注前期配置**。因此，每一个页面中的文字、图片、链接，都需要提前配置完成，方便后期显示。
+<br>This is why Jekyll achieves its lightweight nature - **it focuses on upfront configuration rather than backend processing**. Therefore, all text, images, and links on each page need to be configured in advance for convenient display later.
 
-<br>聪明的你应该发现了，只需要引入“相对地址链接”，然后上传到Github仓库中，就可以完成图片媒体的配置。需要注意的是，有的同学可能知道“图床技术”，但对于个人站点而言，这类需要长期维护的网站，**强烈不建议使用第三方图床服务**。
+<br>As you've likely discovered, you only need to use "relative path links" and upload them to your Github repository to complete the media configuration. It's worth noting that while some of you may be familiar with "image hosting services", for personal websites that require long-term maintenance, **it's strongly recommended not to use third-party image hosting services**.
 
-<br>如果图片挂了，你需要花费**超大量的时间**来转移图片链接——别问笔者为什么清楚，“皆是一把辛酸泪”。另外，使用相对地址，网站的图片加载速度会比第三方服务快得多（20%-50%）
+<br>If hosted images break, you'll need to spend **an enormous amount of time** migrating image links - don't ask me how I know, it's "a tale of bitter experience". Additionally, using relative paths will make your website's image loading 20%-50% faster than third-party services.
 
 ---
 
-### (5) 文件链接配置
+### (5) File Link Configuration
 
-现在，聪明的你可能又发现了，在笔者的站点中，点击[This is my reference book](https://houlinzhi.com/files\CSAPP.pdf)，就可以跳转到CSAPP。
+Now, you may have noticed that on my site, clicking [This is my reference book](https://houlinzhi.com/files\CSAPP.pdf) takes you directly to CSAPP.
 
-<br>于是，笔者要引入Jekyll静态站点的第二条哲学了：**站点世界，是由链接构成的**。
+<br>This brings us to Jekyll static site's second philosophy: **The site world is built on links**.
 
-<br>这也是Jekyll得到轻量化的原因——**不需要后期调用，只关注前期配置**。因此，每一个页面中的文字、图片、链接，都需要提前配置完成，方便后期显示。
+<br>This is another reason for Jekyll's lightweight nature - **it focuses on upfront configuration rather than backend processing**. Therefore, all text, images, and links on each page need to be configured in advance for convenient display later.
 
-<br>上面说到，图片媒体的配置，可以通过“相对地址”（亦可以使用绝对地址），而这里的文件配置链接，**则必须使用“绝对地址”。**
+<br>As mentioned earlier, image media can be configured using "relative paths" (or absolute paths), but for file link configuration, **you must use "absolute paths".**
 
-<br>比如，在笔者站点中的`schoolwork.md`等页面中，都有超链接地址，可以直接访问`files`文件夹下的文件，这就是通过绝对地址实现的，下面是配置方法：
+<br>For example, on pages like `schoolwork.md` in my site, there are hyperlinks that directly access files in the `files` folder. This is implemented using absolute paths. Here's how to configure it:
 
 ```markdown
 [This is my file](https://houlinzhi.com/files\CSAPP.pdf)
 
-[] 里面放置你想显示的内容文本
-() 紧跟着，放置文件的绝对地址
+[] contains the text content you want to display
+() immediately follows, containing the absolute path to the file
 ```
 
-这样，我们就完成了图片媒体和文档媒体的配置过程，现在你应该感到非常兴奋对吧？学习技术就是如此富有魅力的过程，今天又是收获满满的一天！
+Now we've completed the configuration process for image and document media. You must be feeling quite excited, right? Learning technology is such a fascinating process, and today has been another day full of achievements!
 
 ---
 
-### (6) 自定义域名配置
+### (6) Custom Domain Configuration
 
-最后，我们来讲解一下如何配置自定义域名。如果你有自己的域名，可以通过以下步骤将其绑定到 GitHub Pages 上：
+Finally, let's explain how to configure a custom domain. If you have your own domain, you can bind it to GitHub Pages through the following steps:
 
-- **Step 1：** 配置 GitHub Pages 的自定义域名
+- **Step 1:** Configure custom domain for GitHub Pages
 
-  - 打开你的 GitHub Pages 仓库，点击 Settings -> Pages，找到 Add a domain 选项。
-  - 在输入框中填入你的域名，比如 `houlinzhi.com`，然后会出现一个验证页面：
-    - 你需要在域名管理后台添加一个 TXT 记录，根据 GitHub 提供的提示进行配置。
+  - Open your GitHub Pages repository, click Settings -> Pages, and find the Add a domain option.
+  - Enter your domain name in the input field, for example `houlinzhi.com`, and a verification page will appear:
+    - You'll need to add a TXT record in your domain management backend, following GitHub's provided instructions.
     <br>![verify](personal_website_guide.assets/verify.png)
-    - 等待 DNS 解析生效后，点击 Verify，验证通过后，你的域名就会绑定到 GitHub Pages 上。
-  - 修改仓库中的 `CNAME` 文件，将其中的内容改为你的域名，然后上传到 GitHub 仓库。
+    - After waiting for DNS resolution to take effect, click Verify. Once verification is successful, your domain will be bound to GitHub Pages.
+  - Modify the `CNAME` file in your repository, change its content to your domain name, then upload it to the GitHub repository.
 
-- **Step 2：** 配置 DNS 域名解析
+- **Step 2:** Configure DNS Domain Resolution
 
-  - 打开你的域名管理后台，找到 DNS 解析设置，添加一个 CNAME 记录。
-  - 将主机记录设置为 `www`，将记录值设置为 `[你的用户名].github.io`，保存设置。
+  - Open your domain management backend, find the DNS resolution settings, and add a CNAME record.
+  - Set the host record to `www` and set the record value to `[your username].github.io`, then save the settings.
 
     ```
     CNAME   www   Zenith-Hlz.github.io
     ```
 
-  - 添加以下4条 A 记录，将主机记录设置为 `@`，将记录值设置为 GitHub Pages 的 IP 地址 
+  - Add the following 4 A records, set the host record to `@`, and set the record value to GitHub Pages' IP addresses
 
     ```
     A   @   185.199.108.153
@@ -204,42 +204,42 @@ links:
     A   @   185.199.111.153
     ```
 
-- **Step 3：** 更新网站配置文件
+- **Step 3:** Update Website Configuration File
 
-  - 由于个人网站基于 Jekyll ，需要修改 `_config.yml` 文件，将 `url` 配置为你的域名，然后上传到 GitHub 仓库。
+  - Since the personal website is based on Jekyll, you need to modify the `_config.yml` file, set the `url` to your domain name, then upload it to the GitHub repository.
 
     ```yaml
     url: https://houlinzhi.com
     ```
 
-- **Step 4：** 验证域名解析
+- **Step 4:** Verify Domain Resolution
 
-  - 等待 DNS 解析生效，打开浏览器，输入你的域名，应该可以看到你的个人网站了。
+  - Wait for DNS resolution to take effect, open your browser, enter your domain name, and you should see your personal website.
 
-这样，你就成功将自己的域名绑定到 GitHub Pages 上了。如果你有多个域名，可以通过 CNAME 记录实现多域名绑定，具体操作可以参考 GitHub Pages 的文档。
+This way, you have successfully bound your domain to GitHub Pages. If you have multiple domains, you can implement multi-domain binding through CNAME records. For specific operations, please refer to the GitHub Pages documentation.
 
 ---
 
-### (7) 笔者的建议
+### (7) Author's Suggestions
 
-结束上文，笔者还想谈谈在运营个人站点的过程中，自己踩过的一些坑，以及修改本站的注意事项。
+To conclude, I would like to discuss some pitfalls I encountered while running a personal website, as well as considerations when modifying this site.
 
-<br>**第一，免费的才是最贵的**，正如笔者在最开始提到的Jekyll Philosophy——**极简、高效、免费**——然而，运营个人站点需要花费非常多的时间精力，需要学习相当多的新技术，需要跳出自己的舒适圈。所谓免费，皆是学习的成本。
+<br>**First, what's free is actually the most expensive**. As mentioned at the beginning about Jekyll Philosophy—**minimalist, efficient, free**—however, running a personal website requires a significant investment of time and energy, learning many new technologies, and stepping out of your comfort zone. The so-called "free" comes with the cost of learning.
 
-<br>但与此同时，搭建个人站点的过程中，也可以学到许多课堂之外的知识，这些内容将在未来充分受用：markdown, Git, HTML, Bash等等。只要坚持学习，就永远跟得上最新的时代。
+<br>At the same time, during the process of building a personal website, you can learn many valuable skills beyond the classroom that will be fully useful in the future: markdown, Git, HTML, Bash, and more. As long as you persist in learning, you'll always keep up with the latest era.
 
 > What I cannot create, I do not understand.  ——Richard Feynman
 
-**第二，不要畏惧写代码这件事**。我的建议是，永远不要停止学习，不要停止写代码。未来的世界将会有80%以上的研究者依赖于程序的能量，我们都见识过chatGPT的厉害了。所以，无论是`python`, `java`, `R`, `html`，抑或是`LaTeX`，趁早学会它们，都将在未来受益良多！
+**Second, don't be afraid of coding**. My advice is to never stop learning, never stop coding. In the future world, over 80% of researchers will rely on the power of programming, and we've all witnessed the capabilities of ChatGPT. Therefore, whether it's `python`, `java`, `R`, `html`, or `LaTeX`, learning them early will benefit you greatly in the future!
 
 ---
 
-## 写在最后
+## Final Words
 
-最后的最后，感谢你阅读这份文字。如果笔者的博客成功帮助你完成了Jekyll个人站点的搭建，还请你给[本仓库](https://github.com/Zenith-Hlz/Zenith-Hlz.github.io)的右上角点一个`star`，鼓励我持续运营这个项目。
+Finally, thank you for reading this article. If my blog has successfully helped you build your Jekyll personal website, please give [this repository](https://github.com/Zenith-Hlz/Zenith-Hlz.github.io) a `star` in the upper right corner to encourage me to continue maintaining this project.
 
-**谢谢你看到这里，我们后会有期！**
+**Thank you for reading this far, until we meet again!**
 
 <br>
 
-<p align="right">更新于2024年冬</p>
+<p align="right">Updated in Winter 2024</p>
