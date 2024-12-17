@@ -8,9 +8,24 @@ layout: page
 
 My name is **Linzhi Hou (侯林之)**.<br>
 
-I am an enthusiastic Computer Science and Technology student at Tsinghua University (THU), currently in my second year of undergraduate studies. I am deeply passionate about coding, artificial intelligence (AI), and contributing to open-source projects. My goal is to create innovative solutions to real-world problems and make a meaningful impact in the tech industry.<br>
+Welcome to my personal website! This is a space where **technology meets creativity**. I am an enthusiastic Computer 
+Science and Technology student at [Tsinghua University (THU)](https://www.tsinghua.edu.cn/), currently in my second 
+year of undergraduate studies. I am deeply passionate about coding, artificial intelligence (AI), and contributing to 
+open-source projects. My goal is to create innovative solutions to real-world problems and make a meaningful impact in the tech industry.
 
-If you are interested in collaborating or discussing exciting ideas, feel free to reach out to me at - hlz23@mails.tsinghua.edu.cn, or houlinzhi23411082@gmail.com.
+### Here, you'll find various content including:
+- Technical blogs and tutorials
+- Project documentation  
+- Personal insights into technology trends
+- Hobbies and interests
+- Daily life sharing and thoughts
+
+> I believe in the power of knowledge sharing and collaborative learning. Whether you're a fellow student, a tech enthusiast, or someone interested in computer science, I hope you'll find valuable insights here.
+
+### Let's Connect!
+If you are interested in collaborating or discussing exciting ideas, feel free to reach out to me at:
+- **Academic Email**: hlz23@mails.tsinghua.edu.cn
+- **Personal Email**: houlinzhi23411082@gmail.com
 
 ---
 
