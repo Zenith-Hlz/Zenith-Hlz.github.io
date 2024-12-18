@@ -4,7 +4,7 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-- [Blog Under Construction](https://houlinzhi.com/files/404)
+- [Blogs Under Construction](https://houlinzhi.com/files/404)
 
 ## 2024
 
