@@ -10,6 +10,22 @@ title: personal_website_guide
 
 <br>**How to build your own lightweight website?**
 
+### Table of Contents
+
+- [Personal Website Setup Guide](#personal-website-setup-guide)
+  - [Table of Contents](#table-of-contents)
+  - [(0) Core Tools](#0-core-tools)
+  - [(1) Initial Setup](#1-initial-setup)
+  - [(2) File Explanation](#2-file-explanation)
+    - [Root Directory Files](#root-directory-files)
+    - [Repository Folder Introduction](#repository-folder-introduction)
+  - [(3) Personalization](#3-personalization)
+  - [(4) Image Link Configuration](#4-image-link-configuration)
+  - [(5) File Link Configuration](#5-file-link-configuration)
+  - [(6) Custom Domain Configuration](#6-custom-domain-configuration)
+  - [(7) Author's Suggestions](#7-authors-suggestions)
+- [Final Words](#final-words)
+
 ---
 
 ### (0) Core Tools

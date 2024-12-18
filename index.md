@@ -29,6 +29,17 @@ If you are interested in collaborating or discussing exciting ideas, feel free t
 
 ---
 
+## My Favorite Things
+
+- Favorite Singer -- [Xu Song(Vae)](https://www.kugou.com/singer/info/2V7K42B561FF/)
+- Favorite Album -- Vae's [Youth Evening Paper](https://www.kugou.com/album/info/11dm5f5/)
+- Favorite Anime -- [Arcane](https://www.netflix.com/title/81435684)
+- Favorite Game -- 
+    - Multiplayer Game: [Valorant](https://playvalorant.com/)
+    - Singleplayer Game: [Terraria](https://terraria.org/)
+
+---
+
 ## News and Updates
 
 - 2024-12-17: Converted everything to English.
