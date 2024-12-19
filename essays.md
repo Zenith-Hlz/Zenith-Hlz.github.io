@@ -10,7 +10,6 @@ title: Essays
 
 - [2024秋季学期期末周](https://houlinzhi.com/essays/2024_fall_final_week)
 - [THU 新生指南](https://houlinzhi.com/essays/THU_helper)
-- [贴吧、知乎好文摘录](https://houlinzhi.com/essays/echoes_of_eloquence)
 
 ---
 
