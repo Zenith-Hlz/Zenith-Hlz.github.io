@@ -23,7 +23,7 @@ In this blog, I’ll share my detailed notes from the MIT Missing Semester cours
 - [3. Editors(Vim)](https://houlinzhi.com/blogs/mit_missing_semester/3. Editors (Vim))
 - [4. Data Wrangling](https://houlinzhi.com/blogs/mit_missing_semester/4. Data Wrangling)
 - [5. Command-line Environment](https://houlinzhi.com/blogs/mit_missing_semester/5. Command-line Environment)
-- [6. Version Control (Git and GitHub)](https://houlinzhi.com/blogs/mit_missing_semester/6. Version Control (Git and GitHub))
+- [6. Version Control (Git)](https://houlinzhi.com/blogs/mit_missing_semester/6. Version Control (Git))
 - [7. Debugging and Profiling](https://houlinzhi.com/blogs/mit_missing_semester/7. Debugging and Profiling)
 - [8. Metaprogramming](https://houlinzhi.com/blogs/mit_missing_semester/8. Metaprogramming)
 - [9. Security and Cryptography](https://houlinzhi.com/blogs/mit_missing_semester/9. Security and Cryptography)

@@ -20,12 +20,16 @@ open-source projects. My goal is to create innovative solutions to real-world pr
 - [Technical blogs and tutorials](https://houlinzhi.com/blogs)
 - [Daily life sharing and thoughts](https://houlinzhi.com/essays)
 
-<br>I believe in the power of knowledge sharing and collaborative learning. Whether you're a fellow student, a tech enthusiast, or someone interested in computer science, I hope you'll find valuable insights here.
+I believe in the power of knowledge sharing and collaborative learning. Whether you're a fellow student, a tech enthusiast, or someone interested in computer science, I hope you'll find valuable insights here.
 
 ### Let's Connect!
+
 If you are interested in collaborating or discussing exciting ideas, feel free to reach out to me at:
+
 - **Academic Email**: hlz23@mails.tsinghua.edu.cn
 - **Personal Email**: houlinzhi23411082@gmail.com
+- **WeChat**: houlinzhi23411082
+- **QQ**: 3098714681
 
 ---
 
@@ -37,12 +41,3 @@ If you are interested in collaborating or discussing exciting ideas, feel free t
 - Favorite Game -- 
     - Multiplayer Game: [Valorant](https://playvalorant.com/)
     - Singleplayer Game: [Terraria](https://terraria.org/)
-
----
-
-## News and Updates
-
-- 2024-12-19: Added blogs about data structure and algorithm, [Data Structure and Algorithm](https://houlinzhi.com/blogs/data_structure_and_algorithm_index).
-- 2024-12-18: Added [Essays](https://houlinzhi.com/essays) page about my daily life and thoughts.
-- 2024-12-17: Converted everything to English.
-- 2024-12-16: Completed the construction of the personal website and updated the first blog, [Personal Website Setup Guide](https://houlinzhi.com/blogs/personal_website_guide).
