@@ -4,7 +4,7 @@ permalink: /essays/2024_fall_final_week/index.html
 title: 2024_fall_final_week
 ---
 
-<img src="https://houlinzhi.com/essays/2024_fall_final_week.assets/photograph.png" class="floatpic">
+![photograph](https://houlinzhi.com/essays/2024_fall_final_week.assets/photograph.png)
 
 # 2024秋季学期期末周
 
