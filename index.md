@@ -14,13 +14,13 @@ year of undergraduate studies. I am deeply passionate about coding, artificial i
 open-source projects. My goal is to create innovative solutions to real-world problems and make a meaningful impact in the tech industry.
 
 ### Here, you'll find various content including:
-- Technical blogs and tutorials
-- Project documentation  
-- Personal insights into technology trends
-- Hobbies and interests
-- Daily life sharing and thoughts
+ 
+- [Schoolwork and course notes](https://houlinzhi.com/schoolwork)
+- [Hobbies and interests](https://houlinzhi.com/hobbies)
+- [Technical blogs and tutorials](https://houlinzhi.com/blogs)
+- [Daily life sharing and thoughts](https://houlinzhi.com/essays)
 
-> I believe in the power of knowledge sharing and collaborative learning. Whether you're a fellow student, a tech enthusiast, or someone interested in computer science, I hope you'll find valuable insights here.
+<br>I believe in the power of knowledge sharing and collaborative learning. Whether you're a fellow student, a tech enthusiast, or someone interested in computer science, I hope you'll find valuable insights here.
 
 ### Let's Connect!
 If you are interested in collaborating or discussing exciting ideas, feel free to reach out to me at:
@@ -42,5 +42,7 @@ If you are interested in collaborating or discussing exciting ideas, feel free t
 
 ## News and Updates
 
+- 2024-12-19: Added blogs about data structure and algorithm, [Data Structure and Algorithm](https://houlinzhi.com/blogs/data_structure_and_algorithm_index).
+- 2024-12-18: Added [Essays](https://houlinzhi.com/essays) page about my daily life and thoughts.
 - 2024-12-17: Converted everything to English.
 - 2024-12-16: Completed the construction of the personal website and updated the first blog, [Personal Website Setup Guide](https://houlinzhi.com/blogs/personal_website_guide).
