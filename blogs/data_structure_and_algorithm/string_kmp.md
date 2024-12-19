@@ -153,7 +153,7 @@ TABLE:   0000120
 
 可能说到这里，你或许懂了部分匹配表的工作原理，但是还是比较难想象出来具体前后缀和部分匹配表为什么能够实现我们要的快速定位，他们是怎么扯上关系的？这里我再用图来形象的进行解释。如下图
 
-![nexttable](https://www.houlinzhi.com/blogs/data_structure_and_algorithm/assets/string_nexttable.png)
+![nexttable](./assets/string_nexttable.png)
 
 以图中的例子来说，在 i 处失配，那么主字符串和模式字符串的前边6位就是相同的。又因为模式字符串的前6位，它的前4位前缀和后4位后缀是相同的，所以我们推知主字符串i之前的4位和模式字符串开头的4位是相同的。就是图中的灰色部分。那这部分就不用再比较了。
 
@@ -190,7 +190,7 @@ next: -1  0  0  1  2  3  4  0
 
 到这里，其实KMP的基本主体就已经讲完了，你会发现，其实KMP算法的动机是很简单的，解决的方案也很简单。不过我们还有一个疑问，就是next数组我们要怎么用代码去求解呢？
 
-![next](https://www.houlinzhi.com/blogs/data_structure_and_algorithm/assets/string_next.png)
+![next](./assets/string_next.png)
 
 经过前面的讲解，我们都知道next数组都是通过PMT转化过来的，而PMT的求解，是通过前后缀的最长公共元素长度来完成的，那么我们有没有很好的求解next数组的方法呢（这里就把next当做PMT的求解了）。现在，我们再看一下如何编程快速求得next数组。其实，求next数组的过程完全可以看成模式串自行进行字符串匹配的过程，即以模式（就是pattern）字符串为主字符串，以模式字符串（就是pattern）的前缀为目标字符串，一旦字符串匹配成功，那么当前的next值就是匹配成功的字符串的长度。
 

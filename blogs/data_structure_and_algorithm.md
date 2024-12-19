@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/data_structure_and_algorithm_index/index.html
+permalink: /blogs/data_structure_and_algorithm/index.html
 title: Data Structure and Algorithm
 ---
 

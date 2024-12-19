@@ -51,7 +51,7 @@ Next, let's proceed with the initial environment setup. As engineering students 
     - Check "Copy the `main` branch only" (you only need to copy the main project branch)
     - Finally, click `Create fork` to complete the repository copying
 
-<br>![fork](personal_website_guide.assets/fork.png)
+<br>![fork](./personal_website_guide.assets/fork.png)
 
 <br>Congratulations, you've completed half of the entire configuration process! If you encounter any problems in the above steps, remember to make good use of the STFW (Search The Friendly Web) principle - search online for relevant information to solve problems.
 
@@ -198,7 +198,7 @@ Finally, let's explain how to configure a custom domain. If you have your own do
   - Open your GitHub Pages repository, click Settings -> Pages, and find the Add a domain option.
   - Enter your domain name in the input field, for example `houlinzhi.com`, and a verification page will appear:
     - You'll need to add a TXT record in your domain management backend, following GitHub's provided instructions.
-    <br>![verify](personal_website_guide.assets/verify.png)
+    <br>![verify](./personal_website_guide.assets/verify.png)
     - After waiting for DNS resolution to take effect, click Verify. Once verification is successful, your domain will be bound to GitHub Pages.
   - Modify the `CNAME` file in your repository, change its content to your domain name, then upload it to the GitHub repository.
 

@@ -8,8 +8,9 @@ title: Blogs
 
 ## 2024
 
-- [Data Structure and Algorithm](https://houlinzhi.com/blogs/data_structure_and_algorithm_index)
-
+- [Makefile Tutorial By Example](https://houlinzhi.com/blogs/makefile_tutorial)
+- [MIT missing semester](https://houlinzhi.com/blogs/mit_missing_semester)
+- [Data Structure and Algorithm](https://houlinzhi.com/blogs/data_structure_and_algorithm)
 - [Personal Website Setup Guide](https://houlinzhi.com/blogs/personal_website_guide)
 
 ---

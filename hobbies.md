@@ -22,7 +22,7 @@ title: Hobbies
 
   <br>
 
-  ![Valorant](https://houlinzhi.com/images/valorant.png)
+  ![Valorant](./images/valorant.png)
 
 ---
 
@@ -40,7 +40,7 @@ title: Hobbies
 
   <br>
 
-  ![Honor of Kings](https://houlinzhi.com/images/honorofkings.jpg)
+  ![Honor of Kings](./images/honorofkings.jpg)
 
 ---
 
@@ -58,4 +58,4 @@ title: Hobbies
 
   <br>
 
-  ![Soul Knight](https://houlinzhi.com/images/soulknight.jpg)
+  ![Soul Knight](./images/soulknight.jpg)

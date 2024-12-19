@@ -1,14 +1,16 @@
 ---
 layout: page
 permalink: /essays/index.html
-title: essays
+title: Essays
 ---
 
-- [Essays Under Construction](https://houlinzhi.com/files/404)
+- [随笔持续更新中 ~](https://houlinzhi.com/files/404)
 
 ## 2024
 
 - [2024秋季学期期末周](https://houlinzhi.com/essays/2024_fall_final_week)
+- [THU 新生指南](https://houlinzhi.com/essays/THU_helper)
+- [贴吧、知乎好文摘录](https://houlinzhi.com/essays/echoes_of_eloquence)
 
 ---
 
@@ -16,10 +18,10 @@ title: essays
 
 ## Star
 
-- [Leave a star if you like it](https://github.com/Zenith-Hlz/Zenith-Hlz.github.io) 
+- [如果你觉得内容还不错，请给我的 GitHub 仓库点个 star](https://github.com/Zenith-Hlz/Zenith-Hlz.github.io) 
 
 <br>
 
-> **My WeChat Account**: `houlinzhi140036`
+> **我的微信账号**: `houlinzhi140036`
 
 <br>
