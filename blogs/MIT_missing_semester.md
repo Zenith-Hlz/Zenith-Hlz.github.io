@@ -6,7 +6,7 @@ title: MIT missing semester
 
 # Introduction to MIT Missing Semester  
 
-The **MIT Missing Semester** is an innovative course designed to bridge a crucial gap in traditional computer science and engineering curriculums. While most academic programs focus heavily on algorithms, data structures, and theory, they often overlook the practical tools and skills required to operate efficiently in the modern computing environment. This is where the Missing Semester comes in—it teaches students the essential skills to master the command line, version control, shell scripting, debugging, automation, and much more.  
+The [**MIT Missing Semester**](https://missing.csail.mit.edu/) is an innovative course designed to bridge a crucial gap in traditional computer science and engineering curriculums. While most academic programs focus heavily on algorithms, data structures, and theory, they often overlook the practical tools and skills required to operate efficiently in the modern computing environment. This is where the Missing Semester comes in—it teaches students the essential skills to master the command line, version control, shell scripting, debugging, automation, and much more.  
 
 In essence, the course equips learners with the practical knowledge to work smarter, faster, and more effectively, laying the groundwork for success in both academic projects and real-world software development. Whether you're a student, software engineer, or an enthusiast, the skills taught in the Missing Semester will empower you to be more productive and confident when working in a Unix-based environment.
 
