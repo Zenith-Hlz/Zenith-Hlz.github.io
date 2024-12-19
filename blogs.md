@@ -8,6 +8,8 @@ title: Blogs
 
 ## 2024
 
+- [Data Structure and Algorithm](https://houlinzhi.com/blogs/data_structure_and_algorithm_index)
+
 - [Personal Website Setup Guide](https://houlinzhi.com/blogs/personal_website_guide)
 
 ---
