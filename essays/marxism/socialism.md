@@ -4,7 +4,7 @@ permalink: /essays/marxism/socialism/index.html
 title: 社会主义的历史命运
 ---
 
-### 引言——概念与方法
+### 引言 —— 概念与方法
 
 #### 基本问题
 - 何谓社会?

@@ -4,7 +4,7 @@ permalink: /essays/marxism/capitalism/index.html
 title: 资本主义的历史命运
 ---
 
-### 引言——概念与方法
+### 引言 —— 概念与方法
 
 #### 基本问题
 - 何谓资本?
