@@ -21,9 +21,6 @@ title: Essays
 - [马克思主义基本原理](https://houlinzhi.com/essays/marxism)
   *马克思主义基本原理的课程笔记，涵盖唯物史观、政治经济学、资本主义、社会主义和共产主义。*
 
-- [2024秋季学期期末周](https://houlinzhi.com/essays/2024_fall_final_week)
-  *期末周的那些事儿，记录期末周学习之外的点点滴滴。*
-
 - [THU 新生指南](https://houlinzhi.com/essays/THU_helper)
   *清华新生的实用指南，从校园生活到学习经验，助力开启新征程。*
 
