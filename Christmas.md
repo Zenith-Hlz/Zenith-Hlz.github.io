@@ -4,7 +4,8 @@ permalink: /Christmas/index.html
 title: Christmas Redirect
 ---
 
-<meta http-equiv="refresh" content="0; url=http://wan55.cn/5632#35055">
-<link rel="canonical" href="http://wan55.cn/5632#35055" />
+<script>
+  window.location.href = "http://wan55.cn/5632#35055";
+</script>
 
-<p>Redirecting to <a href="http://wan55.cn/5632#35055">wan55.cn</a>...</p>
+<p>If you are not redirected automatically, please <a href="http://wan55.cn/5632#35055">click here</a>.</p>
