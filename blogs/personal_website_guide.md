@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: /blogs/personal_website_guide/index.html
 title: personal_website_guide
 ---
