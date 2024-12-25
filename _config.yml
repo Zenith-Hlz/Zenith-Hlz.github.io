@@ -2,7 +2,7 @@ title: Linzhi Hou
 # tagline: This is personal website of Linzhi Hou. Powered by Jekyll, based on the Minimal Mistakes theme.
 # description: I am an Enthusiastic Computer Science and Technology student at THU. Passionate about coding, AI, and open-source projects.
 # Comment out url when working locally to resolve base urls correctly
-url: https://houlinzhi.com
+# url: https://houlinzhi.com
 
 # Owner/author information
 owner:
@@ -34,6 +34,8 @@ links:
     url: /blogs/
   - title: essays
     url: /essays/
+  - title: Christmas
+    url: /Christmas/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
