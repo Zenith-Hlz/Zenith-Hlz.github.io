@@ -1,10 +1,8 @@
 ---
 layout: post
 permalink: /blogs/personal_website_guide/index.html
-title: personal_website_guide
+title: Personal Website Setup Guide
 ---
-
-## Personal Website Setup Guide
 
 > Philosophy: Minimalist, Efficient, Free
 
@@ -255,7 +253,5 @@ At the same time, during the process of building a personal website, you can lea
 Finally, thank you for reading this article. If my blog has successfully helped you build your Jekyll personal website, please give [this repository](https://github.com/Zenith-Hlz/Zenith-Hlz.github.io) a `star` in the upper right corner to encourage me to continue maintaining this project.
 
 **Thank you for reading this far, until we meet again!**
-
-
 
 <p align="right">Updated in Winter 2024</p>
