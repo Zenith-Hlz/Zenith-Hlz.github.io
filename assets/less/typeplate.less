@@ -68,15 +68,15 @@
 // $T y p e  S c a l e
 // --------------------------------------------------------------------------
 
-@tera: 117;		//	117	= 18 × 6.5
-@giga: 90;		//	90  = 18 × 5
-@mega: 72;		//	72  = 18 × 4
-@alpha: 60;		//	60  = 18 × 3.3333
-@beta: 48;		//	48  = 18 × 2.6667
-@gamma: 36;		//	36  = 18 × 2
-@delta: 24;		//	24  = 18 × 1.3333
-@epsilon: 21;	//	21  = 18 × 1.1667
-@zeta: 18; 		//	18  = 18 × 1
+@tera: 117; //	117	= 18 × 6.5
+@giga: 90; //	90  = 18 × 5
+@mega: 72; //	72  = 18 × 4
+@alpha: 60; //	60  = 18 × 3.3333
+@beta: 48; //	48  = 18 × 2.6667
+@gamma: 36; //	36  = 18 × 2
+@delta: 24; //	24  = 18 × 1.3333
+@epsilon: 21; //	21  = 18 × 1.1667
+@zeta: 18; //	18  = 18 × 1
 
 
 // $T y p e  S c a l e  U n i t
@@ -173,28 +173,30 @@
 // --------------------------------------------------------------------------
 
 // @Typographic scale
-.modular-scale (@scale, @base, @value, @measure:"") when (@measure = "") {
-	font-size: ~"@{scale}px";
+.modular-scale (@scale, @base, @value, @measure: "") when (@measure ="") {
+	font-size:~"@{scale}px";
 	@font: (@scale/@base) + @value;
-	font-size: ~"@{font}rem";
+	font-size:~"@{font}rem";
 }
-.modular-scale (@scale, @base, @value, @measure:"") when not (@measure = "") {
-	font-size: ~"@{scale}px";
+
+.modular-scale (@scale, @base, @value, @measure: "") when not (@measure ="") {
+	font-size:~"@{scale}px";
 	@font: (@scale/@base) + @value;
-	font-size: ~"@{font}rem";
+	font-size:~"@{font}rem";
 	@margin: (@measure/@scale) + @value;
-	margin-bottom: ~"@{margin}rem";
+	margin-bottom:~"@{margin}rem";
 }
 
 
 // $B o d y    C o p y
 // --------------------------------------------------------------------------
 
-.base-type (@weight, @line-height, @font-size, @font-family, @serif-boolean: true) when (@serif-boolean = true) {
-	font: @weight ~"@{font-size}%/@{line-height}" @font-family;
+.base-type (@weight, @line-height, @font-size, @font-family, @serif-boolean: true) when (@serif-boolean =true) {
+	font: @weight ~"@{font-size}%/@{line-height}"@font-family;
 }
-.base-type (@weight, @line-height, @font-size, @font-family, @serif-boolean: true) when not (@serif-boolean = true) {
-	font: @weight ~"@{font-size}%/@{line-height}" @font-family-sans;
+
+.base-type (@weight, @line-height, @font-size, @font-family, @serif-boolean: true) when not (@serif-boolean =true) {
+	font: @weight ~"@{font-size}%/@{line-height}"@font-family-sans;
 }
 
 
@@ -204,11 +206,11 @@
 
 .css-hyphens (@val) {
 	// Accepted values: [ none | manual | auto ]
-	-webkit-hyphens: @val;	// Safari 5.1 thru 6, iOS 4.2 thru 6
-	-moz-hyphens: @val;		// Firefox 16 thru 20
-	-ms-hyphens: @val;		// IE10
-	-o-hyphens: @val;		// PRESTO...haha LOL
-	hyphens: @val;			// W3C standard
+	-webkit-hyphens: @val; // Safari 5.1 thru 6, iOS 4.2 thru 6
+	-moz-hyphens: @val; // Firefox 16 thru 20
+	-ms-hyphens: @val; // IE10
+	-o-hyphens: @val; // PRESTO...haha LOL
+	hyphens: @val; // W3C standard
 }
 
 
@@ -320,48 +322,56 @@
 // dictionary-style
 // http://lea.verou.me/2012/02/flexible-multiline-definition-lists-with-2-lines-of-css
 
-.definition-list-style (@style) when (@style = lining) {
+.definition-list-style (@style) when (@style =lining) {
+
 	dt,
 	dd {
 		display: inline;
 		margin: 0;
 	}
+
 	dt,
 	dd {
-		& + dt {
+		&+dt {
 			&:before {
 				content: "\A";
 				white-space: pre;
 			}
 		}
 	}
+
 	dd {
-		& + dd {
+		&+dd {
 			&:before {
 				content: ", ";
 			}
 		}
+
 		&:before {
-				content: ": ";
-				margin-left: -0.2rem; //removes extra space between the dt and the colon
+			content: ": ";
+			margin-left: -0.2rem; //removes extra space between the dt and the colon
 		}
 	}
 }
+
 // dictionary-style
-.definition-list-style (@style) when (@style = dictionary-style) {
+.definition-list-style (@style) when (@style =dictionary-style) {
 	dt {
 		display: inline;
 		counter-reset: definitions;
-		& + dt {
+
+		&+dt {
 			&:before {
 				content: ", ";
 				margin-left: -0.2rem; // removes extra space between the dt and the comma
 			}
 		}
 	}
+
 	dd {
 		display: block;
 		counter-increment: definitions;
+
 		&:before {
 			content: ~"counter(definitions, decimal)" ". ";
 		}
@@ -409,15 +419,41 @@ body {
 }
 
 // for each size in the scale, create a class
-.tera 		{ .modular-scale(@tera, @font-base, @type-scale-unit-value, @measure); }
-.giga 		{ .modular-scale(@giga, @font-base, @type-scale-unit-value, @measure); }
-.mega 		{ .modular-scale(@mega, @font-base, @type-scale-unit-value, @measure); }
-.alpha 		{ .modular-scale(@alpha, @font-base, @type-scale-unit-value, @measure); }
-.beta 		{ .modular-scale(@beta, @font-base, @type-scale-unit-value, @measure); }
-.gamma 		{ .modular-scale(@gamma, @font-base, @type-scale-unit-value, @measure); }
-.delta 		{ .modular-scale(@delta, @font-base, @type-scale-unit-value, @measure); }
-.epsilon 	{ .modular-scale(@epsilon, @font-base, @type-scale-unit-value, @measure); }
-.zeta 		{ .modular-scale(@zeta, @font-base, @type-scale-unit-value, @measure); }
+.tera {
+	.modular-scale(@tera, @font-base, @type-scale-unit-value, @measure);
+}
+
+.giga {
+	.modular-scale(@giga, @font-base, @type-scale-unit-value, @measure);
+}
+
+.mega {
+	.modular-scale(@mega, @font-base, @type-scale-unit-value, @measure);
+}
+
+.alpha {
+	.modular-scale(@alpha, @font-base, @type-scale-unit-value, @measure);
+}
+
+.beta {
+	.modular-scale(@beta, @font-base, @type-scale-unit-value, @measure);
+}
+
+.gamma {
+	.modular-scale(@gamma, @font-base, @type-scale-unit-value, @measure);
+}
+
+.delta {
+	.modular-scale(@delta, @font-base, @type-scale-unit-value, @measure);
+}
+
+.epsilon {
+	.modular-scale(@epsilon, @font-base, @type-scale-unit-value, @measure);
+}
+
+.zeta {
+	.modular-scale(@zeta, @font-base, @type-scale-unit-value, @measure);
+}
 
 // associate h1-h6 tags with their appropriate greek heading
 h1 {
@@ -456,7 +492,8 @@ h6 {
 
 p {
 	margin: 0 0 @indent-val;
-	& + p {
+
+	&+p {
 		//siblings indentation
 		text-indent: @indent-val;
 		margin-top: -@indent-val;
@@ -491,8 +528,9 @@ xmp {
 // White Space Mixins
 .white-space-pre-wrap () {
 	white-space: -moz-pre-wrap; // Firefox 1.0-2.0
-	white-space: pre-wrap;			// Current Browsers
+	white-space: pre-wrap; // Current Browsers
 }
+
 .white-space-pre () {
 	white-space: pre;
 }
@@ -501,9 +539,11 @@ pre code {
 	.normal-wrap;
 	.white-space-pre-wrap;
 }
+
 pre {
 	.white-space-pre;
 }
+
 code {
 	.white-space-pre;
 	font-family: monospace;
@@ -523,6 +563,7 @@ code {
  */
 abbr {
 	.smallcaps(@textcolor, 400);
+
 	&:hover {
 		cursor: help;
 	}
@@ -591,20 +632,24 @@ h6 {
  */
 .stats-tabs {
 	padding: 0;
+
 	li {
 		display: inline-block;
 		margin: @stats-list-margin;
 		padding: @stats-list-padding;
 		border-right: @stats-border-style;
+
 		&:last-child {
 			margin: 0;
 			padding: 0;
 			border: none;
 		}
+
 		a {
 			display: inline-block;
 			font-size: @stats-font-size;
 			font-weight: bold;
+
 			b {
 				display: block;
 				margin: @stats-item-margin;
@@ -632,7 +677,7 @@ h6 {
  *
  */
 
-.cite-style(@display:block, @text-align:right, @font-size: .875em) {
+.cite-style(@display: block, @text-align: right, @font-size: .875em) {
 	display: @display;
 	font-size: @font-size;
 	text-align: @text-align;
@@ -666,6 +711,7 @@ h6 {
 .pull-quotes(@font-size, @opacity) {
 	position: relative;
 	padding: (@font-size/@font-size);
+
 	&:before,
 	&:after {
 		height: (@font-size/@font-size);
@@ -673,11 +719,13 @@ h6 {
 		position: absolute;
 		font-size: @font-size;
 	}
+
 	&:before {
 		content: '“';
-		top:  0em;
+		top: 0em;
 		left: 0em;
 	}
+
 	&:after {
 		content: '”';
 		bottom: 0em;
@@ -707,7 +755,7 @@ h6 {
  */
 
 
- // @Footnotes
+// @Footnotes
 // --------------------------------------------------------------------------
 
 /**

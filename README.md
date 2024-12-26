@@ -8,4 +8,4 @@ If you are interested in collaborating or discussing exciting ideas, feel free t
 
 ## Statement
 
-© 2024 Linzhi Hou. Published with [GitHub Pages](https://pages.github.com/), powered by [Jekyll](https://jekyllrb.com/), based on the [Minimal Mistakes](https://mademistakes.com/) theme. Source code for this website can be found [here](https://github.com/Zenith-Hlz/Zenith-Hlz.github.io).
+© 2024 Linzhi Hou. Published with [GitHub Pages](https://pages.github.com/), powered by [Jekyll](https://jekyllrb.com/), based on the [Minimal Mistakes](https://mademistakes.com/) theme. 

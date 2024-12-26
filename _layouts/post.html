@@ -5,83 +5,108 @@
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"><!--<![endif]-->
 
 <head>
-{% include head.html %}
+  {% include head.html %}
 
-<script src="https://cdn.counter.dev/script.js" data-id="4c8f7caa-2b55-46cd-a995-2c4633303773" data-utcoffset="8"></script>
+  <script src="https://cdn.counter.dev/script.js" data-id="4c8f7caa-2b55-46cd-a995-2c4633303773"
+    data-utcoffset="8"></script>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-T5N5JY1E21');
-</script>
+    gtag('config', 'G-T5N5JY1E21');
+  </script>
 
 </head>
 
-
 <body class="article" itemscope itemtype="http://schema.org/WebPage">
 
-{% include chrome-frame.html %}
+  {% include navigation.html %}
 
-{% include navigation.html %}
+  {% if page.image.feature %}<div class="image-wrap">
+    <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image"
+      itemprop="primaryImageOfPage">
+  </div><!-- /.image-wrap -->{% endif %}
 
-{% if page.image.feature %}<div class="image-wrap">
-  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
-</div><!-- /.image-wrap -->{% endif %}
+  <div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+    <div class="article-author-top">
+      {% include author-bio.html %}
+    </div>
+    <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+      <div class="headline-wrap">
+        <div class="headline-wrap">
+          <h1 itemprop="headline">{{ page.title }}</h1>
+          <h2>{{ page.tagline }}</h2>
+            <p class="byline" style="text-align: right;"> Published on <time
+              datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y"
+              }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: " %Y-%m-%d"
+              }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span
+              itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a
+                  href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name
+                  }}</a></span></span>.</p>
+        </div><!--/ .headline-wrap -->
+        <div class="article-wrap" itemprop="text">
+          {{ content }}
+        </div><!-- /.article-wrap -->
+    </article>
+  </div><!-- /#main -->
 
-<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <div class="article-author-top">
-    {% include author-bio.html %}
-  </div>
-  <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-    <div class="headline-wrap">
-      <h1 itemprop="headline">{{ page.title }}</h1>
-      <h2>{{ page.tagline }}</h2>
-    </div><!--/ .headline-wrap -->
-    <div class="article-wrap" itemprop="text">
-      {{ content }}
-      <hr />
-      <footer role="contentinfo">
-        <div class="article-author-bottom">
-          {% include author-bio.html %}
-        </div>
-        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>.</p>
-      </footer>
-    </div><!-- /.article-wrap -->
-  </article>
-</div><!-- /#main -->
-
-
-<div class="footer-wrap">
-  {% if site.related_posts.size %}<div class="related-articles">
-  <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/articles">View all articles</a>)</small></h4>
-    <ul>
-    {% for post in site.related_posts limit:3 %}
-      {% assign match = false %}
-      {% for category in post.categories %}
+  <div class="footer-wrap">
+    {% if site.related_posts.size %}<div class="related-articles">
+      <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/blogs">View all
+            blogs</a>)</small></h4>
+      <ul id="related-posts">
+        {% assign related_posts = '' | split: '' %}
+        {% for post in site.posts %}
+        {% if post.url != page.url %}
+        {% assign match = false %}
+        {% for category in post.categories %}
         {% if page.categories contains category %}
-          {% assign match = true %}
+        {% assign match = true %}
+        {% break %}
         {% endif %}
-      {% endfor %}
-      {% if match %}
-      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-    <hr />
-  </div><!-- /.related-articles -->{% endif %}
-  <footer>
-    {% include footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
+        {% endfor %}
+        {% if match %}
+        {% assign related_posts = related_posts | push: post %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
 
-{% include scripts.html %}	        
+        {% for post in related_posts %}
+        <li style="display: none;" class="related-post">
+          <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const posts = Array.from(document.querySelectorAll('.related-post'));
+          const selectedPosts = posts
+            .sort(() => Math.random() - 0.5)
+            .slice(0, 3);
+
+          selectedPosts.forEach(post => {
+            post.style.display = 'list-item';
+          });
+        });
+      </script>
+      <hr />
+    </div><!-- /.related-articles -->{% endif %}
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </div><!-- /.footer-wrap -->
+
+  {% include scripts.html %}
 
 </body>
+
 </html>
