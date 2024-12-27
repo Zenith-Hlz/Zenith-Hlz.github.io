@@ -16,3 +16,4 @@ The blogs here are based on the course materials of Data Structure and Algorithm
 - [String KMP Algorithm]({{ site.url }}/blogs/data_structure_and_algorithm/string_kmp)
 - [String BM Algorithm]({{ site.url }}/blogs/data_structure_and_algorithm/string_bm)
 - [Sorting Quick Sort]({{ site.url }}/blogs/data_structure_and_algorithm/sorting_quicksort)
+- [Sorting Selection]({{ site.url }}/blogs/data_structure_and_algorithm/sorting_selection)
