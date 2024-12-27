@@ -1,9 +1,9 @@
 ---
 layout: post
-permalink: /blogs/data_structure_and_algorithm/sort_quicksort/index.html
-title: Sort - QuickSort
+permalink: /blogs/data_structure_and_algorithm/sorting_quicksort/index.html
+title: Sorting - QuickSort
 date: 2024-12-26
-description: A comprehensive guide to understanding the BM algorithm for string matching.
+description: A comprehensive guide to understanding the QuickSort algorithm.
 categories: [Data Structure and Algorithm]
 ---
 ## 基本原理
@@ -90,7 +90,7 @@ Rank Vector<T>::partition( Rank lo, Rank hi ) { // LUG版：基本形式
 
 不变性：`L = [0,lo)`；`U = (lo,hi)`；`G = [hi,n)`；`[lo] == [hi]`
 
-![lug]({{ site.url }}/assets/images/data_structure_and_algorithm/sort_lug.png)
+![lug]({{ site.url }}/assets/images/data_structure_and_algorithm/sorting_lug.png)
 
 ### 性能特征
 
@@ -255,7 +255,7 @@ quickSort的过程及结果可理解为：将所有元素逐个地转化为pivot
 
 $$T(n)=\sum_{j=1}^{n-1} \sum_{i=0}^{j-1} \operatorname{Pr}(i, j)=\sum_{j=1}^{n-1} \sum_{d=1}^{j} \frac{2}{d+1} \approx \sum_{j=1}^{n-1} 2 \cdot(\ln j-1) \leq 2 \cdot n \cdot \ln n$$
 
-![compare]({{ site.url }}/assets/images/data_structure_and_algorithm/sort_compare.png)
+![compare]({{ site.url }}/assets/images/data_structure_and_algorithm/sorting_compare.png)
 
 ## 快速划分：DUP版
 
@@ -350,4 +350,4 @@ Rank Vector<T>::partition(Rank lo, Rank hi)
 
 ### 实例
 
-![LGU]({{ site.url }}/assets/images/data_structure_and_algorithm/sort_lgu.png)
+![LGU]({{ site.url }}/assets/images/data_structure_and_algorithm/sorting_lgu.png)
