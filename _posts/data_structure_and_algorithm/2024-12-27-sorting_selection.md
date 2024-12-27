@@ -59,7 +59,7 @@ template <typename T> bool majority(Vector<T> A, T & maj) {
 ```
 
 #### 减而治之
-- 若在向量A的前缀P（|P|为偶数）中，元素x出现的次数恰占半数，则A有众数，仅当对应的后缀A−P有众数m，且m就是A的众数
+- 若在向量A的前缀P（$\vert P \vert$为偶数）中，元素x出现的次数恰占半数，则A有众数，仅当对应的后缀A−P有众数m，且m就是A的众数
 - 既然最终总要花费O(n)时间做验证，故而只需考虑A的确含有众数的两种情况：
   1. 若x = m，则在排除前缀P之后，m与其它元素在数量上的差距保持不变
   2. 若x ≠ m，则在排除前缀P之后，m与其它元素在数量上的差距不致缩小
@@ -236,19 +236,19 @@ $$T(n) \leq (n-1)+\frac{2}{n} \times \sum_{k=n/2}^{n-1} 4k \leq (n-1)+3n < 4n$$
 
 设 Q 为一个较小的常数：
 
-1. if (n = |A| < Q) return trivialSelect(A, n, k)
+1. if (n = $\vert A \vert$ < Q) return trivialSelect(A, n, k)
 2. else 将 A 平均分为 n/Q 个子序列（每个大小为 Q）
 3. 对每个子序列排序并确定 n/Q 个中位数 // 例如使用插入排序
 4. 递归调用 linearSelect() 找到 M，即中位数的中位数
 5. 令 L/E/G = { x </=/> M | x ∈ A }
-6. if (k < |L|) return linearSelect(A, |L|, k)
-   if (k < |L|+|E|) return M
-   return linearSelect(A+|L|+|E|, |G|, k-|L|-|E|)
+6. if (k < $\vert L \vert$) return linearSelect(A, $\vert L \vert$, k)
+   if (k < $\vert L \vert$+$\vert E \vert$) return M
+   return linearSelect(A+$\vert L \vert$+$\vert E \vert$, $\vert G \vert$, k-$\vert L \vert$-$\vert E \vert$)
 
 ### 复杂度
 
 将 linearSelect() 算法的运行时间记作 T(n)：
-- 第1步：O(1) = O(QlogQ) // 递归基：序列长度|A| ≤ Q
+- 第1步：O(1) = O(QlogQ) // 递归基：序列长度$\vert A \vert$ ≤ Q
 - 第2步：O(n) // 子序列划分
 - 第3步：O(n) = Q² × n/Q // 子序列各自排序，并找到中位数
 - 第4步：T(n/Q) // 从n/Q个中位数中，递归地找到全局中位数
