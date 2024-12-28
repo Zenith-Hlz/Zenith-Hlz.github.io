@@ -1,8 +1,10 @@
 title: Zenith
-# tagline: This is personal website of Linzhi Hou. Powered by Jekyll, based on the Minimal Mistakes theme.
-# description: I am an Enthusiastic Computer Science and Technology student at THU. Passionate about coding, AI, and open-source projects.
+tagline: This is personal website of Linzhi Hou. Powered by Jekyll, based on the Minimal Mistakes theme.
+description: I am an Enthusiastic Computer Science and Technology student at THU. Passionate about coding, AI, and open-source projects.
 # Comment out url when working locally to resolve base urls correctly
 url: https://houlinzhi.com
+plugins:
+  - jekyll-sitemap
 
 # Owner/author information
 owner:
