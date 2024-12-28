@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/THU_helper/index.html
 title: THU 新生指南
-date: 2024-09-01
 description: A comprehensive guide to navigating the challenges and opportunities of being a new student at Tsinghua University.
 categories: [blogs]
 ---

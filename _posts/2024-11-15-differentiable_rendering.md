@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/differentiable_rendering/index.html
 title: 可微渲染技术原理及应用
-date: 2024-11-15
 description: A deep dive into differentiable rendering techniques, exploring how to integrate advanced lighting models into neural networks for more realistic image synthesis.
 categories: [blogs]
 ---

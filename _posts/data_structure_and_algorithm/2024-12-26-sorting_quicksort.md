@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/data_structure_and_algorithm/sorting_quicksort/index.html
 title: Sorting - QuickSort
-date: 2024-12-26
 description: A comprehensive guide to understanding the QuickSort algorithm.
 categories: [Data Structure and Algorithm]
 ---

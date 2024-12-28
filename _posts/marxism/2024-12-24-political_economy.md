@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/marxism/political_economy/index.html
 title: 政治经济学的精髓
-date: 2024-12-24
 categories: [Marxism]
 description: A comprehensive guide to understanding the essence of political economy.
 ---

@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/mit_missing_semester/index.html
 title: MIT missing semester
-date: 2024-04-23
 categories: [MIT Missing Semester, blogs]
 description: Reflections and key takeaways from the MIT Missing Semester course — a must-read for developers seeking to enhance their software engineering skills.
 ---

@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/marxism/historical_materialism/index.html
 title: 唯物史观的精髓
-date: 2024-12-24
 categories: [Marxism]
 description: A comprehensive guide to understanding the essence of historical materialism.
 ---

@@ -2,13 +2,11 @@
 layout: post
 permalink: /blogs/data_structure_and_algorithm/string_kmp/index.html
 title: String - KMP Algorithm
-date: 2024-12-25
 description: A comprehensive guide to understanding the KMP algorithm for string matching.
 categories: [Data Structure and Algorithm]
 ---
 [字符串匹配](https://en.wikipedia.org/wiki/String_searching_algorithm)是计算机的基本任务之一。举例来说，有一个字符串"`BBC ABCDAB ABCDABCDABDE`"，我们想知道，里面是否包含另一个字符串"`ABCDABD`"？许多算法可以完成这个任务，[Knuth-Morris-Pratt算法](https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm)（简称KMP）是最常用的之一。它以三个发明者命名，起头的那个K就是著名科学家Donald Knuth。虽然 KMP 算法高效且经典，但由于逻辑稍微复杂，理解起来并不容易。本文将用通俗的语言，为你拆解 KMP 算法的核心思想和应用。
 
-- [KMP 算法](#kmp-算法)
   - [低效的暴力匹配算法](#低效的暴力匹配算法)
   - [KMP 算法的基本思想](#kmp-算法的基本思想)
   - [部分匹配表的生成](#部分匹配表的生成)

@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/data_structure_and_algorithm/index.html
 title: Data Structure and Algorithm
-date: 2024-12-20
 categories: [Data Structure and Algorithm, blogs]
 description: Breaking down complex data structures and algorithms into digestible concepts with practical implementations.
 ---

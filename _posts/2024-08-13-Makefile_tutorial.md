@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/makefile_tutorial/index.html
 title: Makefile Tutorial By Example
-date: 2024-08-13
 description: A step-by-step guide to mastering Makefiles with practical examples for seamless project management.
 categories: [blogs]
 ---

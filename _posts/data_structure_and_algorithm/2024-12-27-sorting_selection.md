@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/data_structure_and_algorithm/sorting_selection/index.html
 title: Sorting - Selection
-date: 2024-12-27
 description: A comprehensive guide to understanding the Selection algorithm.
 categories: [Data Structure and Algorithm]
 ---

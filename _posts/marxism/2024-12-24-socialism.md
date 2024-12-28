@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/marxism/socialism/index.html
 title: 社会主义的历史命运
-date: 2024-12-24
 categories: [Marxism]
 description: A comprehensive guide to understanding the history and future of socialism.
 ---

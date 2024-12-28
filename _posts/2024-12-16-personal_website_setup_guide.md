@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/personal_website_setup_guide/index.html
 title: Personal Website Setup Guide
-date: 2024-12-16
 modified: 2024-12-26
 description: A complete walkthrough of setting up your own personal website from scratch — empowering you to showcase your work and ideas online.
 categories: [blogs]

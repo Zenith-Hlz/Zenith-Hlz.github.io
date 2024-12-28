@@ -2,7 +2,6 @@
 layout: post
 permalink: /blogs/data_structure_and_algorithm/sorting_shellsort/index.html
 title: Sorting - Shellsort
-date: 2024-12-27
 description: A comprehensive guide to understanding the Shellsort algorithm.
 categories: [Data Structure and Algorithm]
 ---
