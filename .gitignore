@@ -7,4 +7,5 @@ _site/
 
 scripts/
 
-page_links.js
+*.js
+*.py
